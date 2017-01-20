@@ -1,0 +1,208 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.apt2-wrap {
+    margin: 0;
+}
+.apt2-wrap input,
+.apt2-wrap textarea {
+    font-size: 14px;
+    max-width: 100%;
+    padding: 5px;
+}
+.apt2-wrap textarea {
+    width: 500px;
+}
+
+.apt2-wrap ul {
+    margin: 0;
+}
+.apt2-wrap li {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 1px 0 5px 0;
+}
+.apt2-wrap select {
+    font-size: 14px;
+    margin-top: 3px;
+}
+.apt2-wrap input:focus,
+.apt2-wrap textarea:focus {
+    background: #fffff8;
+}
+.apt2-wrap input[type="radio"] {
+    margin: 0 5px 0 0;
+    padding: 0;
+}
+.apt2-wrap input[type="checkbox"] {
+    margin: 0 5px 0 0;
+    padding: 0;
+}
+.apt2-wrap button,
+.apt2-wrap .button {
+    white-space: nowrap;
+}
+.apt2-wrap .mceLayout {
+    border: 1px solid #e9e9e9 !important;
+}
+.apt2-wrap .mceIframeContainer {
+    background: #fff;
+}
+.apt2-wrap .meta_mce {
+    width: 97%;
+}
+.apt2-wrap .meta_mce textarea {
+    width: 100%;
+}
+.apt2-wrap .wp-color-result,
+.apt2-wrap .wp-picker-input-wrap {
+    vertical-align: middle;
+}
+.apt2-wrap .wp-color-result,
+.apt2-wrap .wp-picker-container {
+    margin: 0 10px 0 0;
+}
+.apt2-wrap .apt-row {
+    margin: 0;
+}
+.apt2-wrap .apt-row:after {
+    content: '';
+    clear: both;
+    display: block;
+    width: 100%;
+}
+.postbox-container .apt-row:not(:last-of-type) {
+    border-bottom: 1px solid #e9e9e9;
+}
+.postbox-container .apt-row {
+    margin: 0 0 .8em;
+}
+.apt-row {
+    padding: 1.8em 0;
+}
+.apt-row:first-of-type>.apt-th {
+    border: 0;
+}
+.postbox-container .apt-th {
+    width: 18%;
+    padding: 0 2% 0 0;
+}
+
+.apt-th {
+    color: #222;
+    float: left;
+    font-weight: 600;
+    line-height: 1.3;
+    padding: 20px 10px 20px 0;
+    vertical-align: top;
+    width: 200px;
+}
+.apt-row:first-of-type>.apt-td, .apt-row:first-of-type>.apt-th {
+    border: 0;
+}
+.postbox-container .apt-th+.apt-td {
+    width: 80%;
+    float: right;
+}
+.postbox-container .apt-td {
+    margin-bottom: 0;
+    padding: 0;
+    line-height: 1.3;
+}
+.apt-th+.apt-td {
+    float: left;
+}
+.apt-td {
+    line-height: 1.3;
+    max-width: 100%;
+    padding: 15px 10px;
+    vertical-align: middle;
+}
+.apt2-media-status .img-status {
+    clear: none;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    width: auto;
+}
+.apt2-media-status .img-status img {
+    max-width: 350px;
+}
+.apt2-media-status .img-status img,
+.apt2-media-status .embed-status {
+    background: #ffffff;
+    border: 1px solid #e9e9e9;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    margin: 15px 0 0 0;
+    padding: 5px;
+}
+.apt2-media-status .embed-status {
+    float: left;
+    max-width: 800px;
+}
+.apt2-media-status .img-status,
+.apt2-media-status .embed-status {
+    position: relative;
+}
+.apt2-media-status .img-status .apt2-remove-file-button,
+.apt2-media-status .embed-status .apt2-remove-file-button {
+    background: url(../images/ico-delete.png);
+    height: 16px;
+    left: -5px;
+    position: absolute;
+    text-indent: -9999px;
+    top: -5px;
+    width: 16px;
+}
+.apt2-media-status .img-status .apt2-remove-file-button {
+    top: 10px;
+}
+.apt2-media-status .img-status img,
+.apt2-media-status .file-status > span {
+    cursor: pointer;
+}
+.apt-type-file-list .apt2-media-status .img-status {
+    clear: none;
+    float: left;
+    margin-right: 10px;
+    width: auto;
+}
+.apt-attach-list li {
+    clear: both;
+    display: inline-block;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.apt-attach-list li img {
+    cursor: move;
+    float: left;
+    margin-right: 10px;
+}
+p.apt2-metabox-description {
+    color: #aaa;
+    font-style: italic;
+    margin: 0;
+    padding-top: .5em;
+}
+input.parsley-error, select.parsley-error, textarea.parsley-error {
+    background-color: #F2DEDE!important;
+    border: 1px solid #EED3D7;
+}
+input.parsley-success, select.parsley-success, textarea.parsley-success {
+    background-color: #DFF0D8!important;
+    border: 1px solid #D6E9C6;
+}
+.parsley-errors-list {
+    margin: 2px 0 3px;
+    padding: 0;
+    list-style-type: none;
+    font-size: 0.9em!important;
+    line-height: 0.9em!important;
+    opacity: 1;
+    transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}

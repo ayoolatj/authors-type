@@ -1,0 +1,23 @@
+.authors-profile-wrapper {
+    /*border: 1px solid #a7a7a7;*/
+    padding: 5px 10px 20px 10px;
+    display: inline-block;
+}
+.authors-profile-userpic {
+    text-align: center;
+    padding-bottom: 10px;
+    display: block;
+}
+.authors-profile-desc, .authors-gallery {
+    padding-bottom: 20px;
+    display: block;
+}
+.authors-profile-desc-text, .authors-profile-desc-link {
+    margin-bottom: 5px;
+    display: block;
+}
+.authors-profile-usertitle-name, .authors-profile-desc-title, .authors-post {
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
